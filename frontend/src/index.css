@@ -190,5 +190,5 @@ a:hover{
   border: .1rem #404040 solid;
 }
 .button.primary{
-  background-color: #ece6a4;
+  background-color: hsla(64, 100%, 51%, 0.945);
 }
