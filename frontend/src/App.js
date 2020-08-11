@@ -58,13 +58,13 @@ function App() {
         <aside className="sidebar">
           <h3>Shopping Categories</h3>
           <button className="sidebar-close-button" onClick={closeMenu}>x</button>
-          <ul>
+          <ul className="categories">
             <li>
-              <a href="index.html">Pants</a>
+              <Link to="/category/Pants">Pants</Link>
             </li>
 
             <li>
-              <a href="index.html">Shirts</a>
+              <Link to="/category/Shirts">Shirts</Link>
             </li>
 
           </ul>
@@ -82,6 +82,7 @@ function App() {
             <Route path="/register" component={RegisterScreen} />
             <Route path="/product/:id" component={ProductScreen} />
             <Route path="/cart/:id?" component={CartScreen} />
+            <Route path="/category/:id" component={HomeScreen} />
             <Route path="/" exact={true} component={HomeScreen} />
 
 
@@ -89,7 +90,7 @@ function App() {
 
         </main>
         <footer className="footer">
-          All right reserved.
+         Chinedu Moses All right reserved.
     </footer>
       </div>
     </BrowserRouter>

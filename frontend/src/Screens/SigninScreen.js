@@ -54,7 +54,7 @@ function SigninScreen(props) {
           New to amorzone?
         </li>
         <li>
-          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your amorzone account</Link>
+          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your amorzonee account</Link>
         </li>
       </ul>
     </form>
