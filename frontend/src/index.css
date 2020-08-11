@@ -371,3 +371,20 @@ tbody>tr:nth-child(odd){
     font-weight: bold;
     color: #c04000;
 }
+.placeorder-actions-payment > div {
+  width: 100%;
+}
+
+/* Profile */
+
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-info{
+  flex: 1 1 30rem;
+}
+.profile-orders{
+  flex: 3 1 60rem;
+}

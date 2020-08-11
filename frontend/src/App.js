@@ -12,6 +12,7 @@ import ShippingScreen from './Screens/ShippingScreen';
 import PaymentScreen from './Screens/PaymentScreen';
 import PlaceOrderScreen from './Screens/PlaceOrderScreen';
 import OrderScreen from './Screens/OrderScreen';
+import ProfileScreen from './Screens/ProfileScreen';
 
 function App() {
 
@@ -58,6 +59,7 @@ function App() {
         </aside>
         <main className="main">
           <div className="content">
+            <Route path="/profile" component={ProfileScreen} />
             <Route path="/order/:id" component={OrderScreen} />
             <Route path="/products" component={ProductsScreen} />
             <Route path="/shipping" component={ShippingScreen} />
@@ -74,7 +76,7 @@ function App() {
 
         </main>
         <footer className="footer">
-          All right reserved.
+          By Chinedu Moses All right reserved.
     </footer>
       </div>
     </BrowserRouter>
